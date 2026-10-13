@@ -19,8 +19,8 @@ Reads everything in `replica/`. Writes `replica/deploy.md` (the checklist in
 
 - **Nothing goes live without the user's go.** Show the preflight results and
   ask.
-- **The user buys and signs in.** Claude never buys a domain, enters a card,
-  types a password or pastes a live key. Claude writes the exact DNS records,
+- **The user buys and signs in.** The agent never buys a domain, enters a card,
+  types a password or pastes a live key. The agent writes the exact DNS records,
   env var names and commands; the user does the account steps.
 - **Not until it is rebranded.** The sweep must be clean. No exceptions.
 
@@ -36,9 +36,9 @@ python3 ../replica-launch/listing.py replica/launch/listing.json     # if shippi
 npm run build                                                        # production build passes
 ```
 
-(Paths are relative to wherever the pack is installed. Under
-`~/.claude/skills/` that is `~/.claude/skills/replica-diff/parity.py` and so
-on.)
+(Paths are relative to wherever the pack is installed. Installed as a plugin,
+the skills sit side by side under the plugin's `skills/` directory, so that
+is `skills/replica-diff/parity.py` and so on.)
 
 Plus by hand: no open S1 or S2 bugs, privacy policy and terms pages live
 (listing every processor), cookie banner if you use non-essential cookies in

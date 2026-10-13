@@ -1,0 +1,13 @@
+{
+  "name": "replica-skill",
+  "version": "1.0.0",
+  "description": "Одиннадцать skills, которые клонируют любое приложение: реверс-инжиниринг (recon), архитектура, дизайн-токены, пересборка экранов, бэкенд, тесты, parity-diff с оригиналом, разбор отзывов пользователей, ребрендинг, лендинг и деплой. Free, MIT.",
+  "description_i18n": {
+    "en": "Eleven free skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT."
+  },
+  "author": {
+    "name": "Jake Schincariol"
+  },
+  "license": "MIT",
+  "skills": "./skills"
+}
